@@ -1,7 +1,52 @@
 import React from "react";
 
 export class Feed extends React.Component{
+    constructor(){
+        super();
+        this.state={
+            comment : "",
+            comments : [],
+        }    
+    }
+
+    changeHandler = (e) => {
+        this.setState({
+            comment : e.target.value
+        })
+    }
+
+    enter = (e) => {
+        if(e.keyCode === 13){
+            let comments = this.state.comments
+            comments = comments.concat(this.state.comment)
+            this.setState({
+                comments : comments,
+                comment : ""
+            })
+        }
+    }
+    
+    clickHandler = () => {
+        let comments = this.state.comments
+        comments = comments.concat(this.state.comment)
+        this.setState({
+            comments : comments,
+            comment : ""
+        })
+    }
+
+   
+
     render(){
+        const writing = this.state.comments.map((comment, i)=>{
+            return (
+                <li key = {i}>
+                    <span className="id">canon_mj</span>
+                    <p>{comment}</p>                 
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
+                </li>
+            )
+        });
         return (
             <div className="Feed">
                     <div className="feeds">
@@ -29,17 +74,19 @@ export class Feed extends React.Component{
                                 <p><span className="id">canon_mj</span>위워크에서 진행한 베이킹 클래스...<span className="view">더 보기</span></p>
                                 <ul className="comments">
                                     <li>
-                                    <span className="id">neceosecius</span>
-                                    <p>거봐 좋았잖아~~~~</p>                 
-                                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
+                                        <span className="id">neceosecius</span>
+                                        <p>거봐 좋았잖아~~~~</p>                 
+                                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
                                     </li>
+                                    {writing}
                                 </ul>
                                 <p>42분 전</p>
                             </div>
                     
                             <div className="comment-box">
-                                <input className="comment"type="text" placeholder="댓글 달기..." />
-                                <button className="loadBtn">게시</button>
+                                <input onChange={this.changeHandler} onKeyUp={this.enter} className="comment" type="text" placeholder="댓글 달기..."
+                                value =  {this.state.comment} />
+                                <button onClick={this.clickHandler} className="loadBtn">게시</button>
                             </div>
                         </article>
                     </div>
