@@ -9,8 +9,8 @@ export class Nav extends React.Component{
                 <nav>
                     <div className="navi">
                     <div className="logo">
-                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" />
-                        <img src={logo_text} />
+                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" alt="logo"/>
+                        <img src={logo_text} alt=""/>
                     </div>
                     
                     <div className="search">
@@ -22,9 +22,9 @@ export class Nav extends React.Component{
                     </div>
                                             
                     <div className="right-nav">
-                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png"/>
-                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"/>
-                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" />
+                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" alt="explore"/>
+                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="heart"/>
+                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" alt="profile"/>
                     </div>
                     </div>      
                 </nav>

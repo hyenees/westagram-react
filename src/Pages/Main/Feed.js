@@ -43,7 +43,7 @@ export class Feed extends React.Component{
                 <li key = {i}>
                     <span className="id">canon_mj</span>
                     <p>{comment}</p>                 
-                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt = "heart" />
                 </li>
             )
         });
@@ -52,23 +52,23 @@ export class Feed extends React.Component{
                     <div className="feeds">
                         <article>
                             <div className="user">
-                                <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/10597488_355569771263224_300593915_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=PZWAY4_TYsYAX9Wv7zL&oh=84a6b8485fbc3ec4ab33b3d936c87a3a&oe=5EFE0307"/>
+                                <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/10597488_355569771263224_300593915_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=PZWAY4_TYsYAX9Wv7zL&oh=84a6b8485fbc3ec4ab33b3d936c87a3a&oe=5EFE0307" alt=""/>
                                 <span className="id">canon_mj</span>
-                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" />
+                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt=""/>
                             </div>
                             <div className="feedImg">
-                                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/101337090_2986174311475179_382611940267311495_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=8bTmCZj3wTUAX-u7oTW&oh=ced21b69b66ef7042d57bf7e0d0f3418&oe=5EFC3098" />
+                                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/101337090_2986174311475179_382611940267311495_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=8bTmCZj3wTUAX-u7oTW&oh=ced21b69b66ef7042d57bf7e0d0f3418&oe=5EFC3098" alt=""/>
                             </div>
                             <div className="icons">
-                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
-                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png" />
-                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png" />
-                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png" /> 
+                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt = "heart"/>
+                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png" alt = "comment" />
+                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png" alt = "share"/>
+                                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png"  alt = "bookmark"/> 
                             </div>
                 
                             <div className="text">
                                 <p className="like">
-                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/68838428_1658603864276148_4116536178222563328_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=uTUDDL5XutkAX-_ht4-&oh=57ca17ba44ffaef5e3dd7b87c2bb2ec9&oe=5EFCB4EF" />
+                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/68838428_1658603864276148_4116536178222563328_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=uTUDDL5XutkAX-_ht4-&oh=57ca17ba44ffaef5e3dd7b87c2bb2ec9&oe=5EFCB4EF" alt="" />
                                     <span className="bold">aineworld</span>님&nbsp;<span className="bold">여러 명</span>이 좋아합니다
                                 </p>
                                 <p><span className="id">canon_mj</span>위워크에서 진행한 베이킹 클래스...<span className="view">더 보기</span></p>
@@ -76,7 +76,7 @@ export class Feed extends React.Component{
                                     <li>
                                         <span className="id">neceosecius</span>
                                         <p>거봐 좋았잖아~~~~</p>                 
-                                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" />
+                                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt = "heart" />
                                     </li>
                                     {writing}
                                 </ul>
