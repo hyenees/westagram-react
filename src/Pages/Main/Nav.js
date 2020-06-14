@@ -8,12 +8,12 @@ export class Nav extends React.Component{
             <div className="Nav">
                 <nav>
                     <div className="navi">
-                    <div className="logo">
+                    <div className="nav-logo">
                         <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png" alt="logo"/>
                         <img src={logo_text} alt=""/>
                     </div>
                     
-                    <div className="search">
+                    <div className="nav-search">
                         <div className="i">
                             <IoIosSearch size="13" />
                         </div>
@@ -21,7 +21,7 @@ export class Nav extends React.Component{
                         <input type="text" placeholder="검색" />
                     </div>
                                             
-                    <div className="right-nav">
+                    <div className="nav-right">
                         <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png" alt="explore"/>
                         <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="heart"/>
                         <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png" alt="profile"/>

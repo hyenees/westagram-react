@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css';
+import './Login.scss';
 import logo_text from '../../Images/logo_text.png';
 
 

@@ -7,7 +7,7 @@ export class Mainright extends React.Component{
                 <div className="main-right">
             
                     <div className="user">
-                        <img className="profile-right" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/10597488_355569771263224_300593915_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=PZWAY4_TYsYAX9Wv7zL&oh=84a6b8485fbc3ec4ab33b3d936c87a3a&oe=5EFE0307" alt=""/>
+                        <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/10597488_355569771263224_300593915_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=PZWAY4_TYsYAX9Wv7zL&oh=84a6b8485fbc3ec4ab33b3d936c87a3a&oe=5EFE0307" alt=""/>
                         <span className="id">canon_mj</span>
                     </div>
             
@@ -18,8 +18,8 @@ export class Mainright extends React.Component{
                         </div>
                         <div className="list">
                             <div className="story-one">
-                                <div className="story-profile">
-                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/12519188_204858473191210_643182932_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=ngF_j196NwwAX8LHHoP&oh=e260c1897f542beb77539087bc786b77&oe=5EFDD344" alt=""/>
+                                <div className="profile-border">
+                                    <img className="story-profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/12519188_204858473191210_643182932_a.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=ngF_j196NwwAX8LHHoP&oh=e260c1897f542beb77539087bc786b77&oe=5EFDD344" alt=""/>
                                 </div>
                                 <div className="userinfo">
                                     <span className="id">_yum_s</span>
@@ -27,8 +27,8 @@ export class Mainright extends React.Component{
                                 </div>
                             </div>
                             <div className="story-two">
-                                <div className="story-profile">
-                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/43817357_705360333181625_1772250737808506880_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=_bWrL0mmOAwAX-C_TwH&oh=158eb412051de74199aad2bc0dc9ba76&oe=5EFE5833" alt=""/>
+                                <div className="profile-border">
+                                    <img className="story-profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/43817357_705360333181625_1772250737808506880_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=_bWrL0mmOAwAX-C_TwH&oh=158eb412051de74199aad2bc0dc9ba76&oe=5EFE5833" alt=""/>
                                 </div>
                                 <div className="userinfo">
                                     <span className="id">drink_eat</span>
@@ -36,8 +36,8 @@ export class Mainright extends React.Component{
                                 </div>  
                             </div>
                             <div className="story-three">
-                                <div className="story-profile">
-                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/56981968_439569199924562_3838662364085878784_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=yXqScl9HBPMAX9Djz4G&oh=465fd58544e0a0f1bca61c5ab581c623&oe=5EFD4D23" alt=""/>
+                                <div className="profile-border">
+                                    <img className="story-profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/56981968_439569199924562_3838662364085878784_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=yXqScl9HBPMAX9Djz4G&oh=465fd58544e0a0f1bca61c5ab581c623&oe=5EFD4D23" alt=""/>
                                 </div> 
                                 <div className="userinfo">
                                     <span className="id">hyukyc</span>
@@ -45,8 +45,8 @@ export class Mainright extends React.Component{
                                 </div>
                             </div>
                             <div className="story-four">
-                                <div className="story-profile">
-                                    <img className="profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/28434316_190831908314778_1954023563480530944_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=Cqeql99w1F4AX9oQRDV&oh=6507ce69fade146d1f883e444dc465fb&oe=5EFB8A60" alt=""/>
+                                <div className="profile-border">
+                                    <img className="story-profile" src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/28434316_190831908314778_1954023563480530944_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=Cqeql99w1F4AX9oQRDV&oh=6507ce69fade146d1f883e444dc465fb&oe=5EFB8A60" alt=""/>
                                 </div>
                                 <div className="userinfo">
                                     <span className="id">jminkeek</span>
