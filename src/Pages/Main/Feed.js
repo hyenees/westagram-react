@@ -35,14 +35,20 @@ export class Feed extends React.Component{
         })
     }
 
-   
+    removeHandler = (e) => {
+        const commentFilter = this.state.comments.filter((comment)=>{
+            return comment!==e.target.previousElementSibling.innerText
+        })
+        this.setState({comments : commentFilter})
+    }
 
     render(){
         const writing = this.state.comments.map((comment, i)=>{
             return (
                 <li key = {i}>
                     <span className="id">canon_mj</span>
-                    <p>{comment}</p>                 
+                    <p>{comment}</p>
+                    <button onClick={this.removeHandler}>X</button>                 
                     <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt = "heart" />
                 </li>
             )

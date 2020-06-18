@@ -1,10 +1,10 @@
 .login-container{
-    border: 1px solid rgb(219,219,219);
+    border: 1px solid var(--light-gray);
     width:350px;
     height: 380px;
     padding: 10px 0;
     border-radius: 1px;
-    background: #fff;
+    background: var(--white);
     margin: 30px auto 0px;
     
     img{
@@ -25,7 +25,7 @@
             width: 100%;
             height: 38px;
             background:#FAFAFA;
-            border : 1px solid rgb(219,219,219);
+            border : 1px solid var(--light-gray);
             border-radius: 3px;
             margin-bottom: 6px;  
             padding-left: 8px; 
@@ -39,7 +39,7 @@
         button{
             width:100%;
             height: 30px;
-            background-color: rgba(0,149,246,.3);
+            background-color: var(--light-blue);
             border-radius: 3px;
             border: none;
             margin: 8px 0;

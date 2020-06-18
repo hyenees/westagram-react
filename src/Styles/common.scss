@@ -1,4 +1,13 @@
+:root {
+    --white :#fff;
+    --light-gray :rgb(219,219,219);
+    --medium-gray :#A8AAAD;
+    --gray :rgb(142, 142, 142);
+    --bg-gray :#FAFAFA;
+    --light-blue :rgba(0,149,246,.3);
+}
+
 body{
-    background: #FAFAFA;
+    background: var(--bg-gray);
     color: #262626;
 }

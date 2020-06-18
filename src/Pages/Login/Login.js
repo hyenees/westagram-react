@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.scss';
 import logo_text from '../../Images/logo_text.png';
-
+import { withRouter } from 'react-router-dom';
 
 export class Login extends React.Component{
     constructor(){
@@ -21,6 +21,7 @@ export class Login extends React.Component{
 
     clickHandler = (e) =>{
         console.log(this.state.id, this.state.password);
+        this.props.history.push('/main');
     }
    
     render(){
@@ -36,8 +37,10 @@ export class Login extends React.Component{
                     <div className="login-box">
                         <input onChange={this.changeHandler} name="id" type="text" placeholder="전화번호, 사용자 이름 또는 이메일"/>
                         <input onChange={this.changeHandler} name="password" type="password" placeholder="비밀번호"/>
+               
                         <button onClick={this.clickHandler} style={{backgroundColor :
-                            this.state.id.includes('@') && (this.state.password).length > 4 ? btnStyle.activeColor  : btnStyle.originalColor}}>로그인</button>
+                                this.state.id.includes('@') && (this.state.password).length > 4 ? btnStyle.activeColor  : btnStyle.originalColor}}>로그인</button>
+                        
                         <a href="#!">비밀번호를 잊으셨나요?</a>
                     </div> 
                 </div>
@@ -46,4 +49,4 @@ export class Login extends React.Component{
     }
 }
 
-export default Login;
+export default withRouter(Login);
