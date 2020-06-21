@@ -1,25 +1,21 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
+body {
+  margin: 0;
+
+  ul {
     margin: 0;
-    
-    ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+    padding: 0;
+    list-style: none;
+  }
 
-    p{
-        margin: 0;
-    }
+  p {
+    margin: 0;
+  }
 
-    input:focus{ 
-        outline: none;
-    }
+  input:focus {
+    outline: none;
+  }
 }
-
-
-
-
